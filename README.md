@@ -8,3 +8,12 @@ Run the script from your terminal and specify the number of pages to scrape and 
 
 ```bash
 python3 scraper.py <count_of_pages> <minimum_votes>
+```
+
+For example:
+
+``` bash
+python3 scraper.py 5 150
+```
+
+This will scrape 5 pages of Hacker News and display only articles with at least 150 points, sorted by popularity.
